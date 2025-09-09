@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-os.chdir(r'D:/Informatique/spe/TD7 KNN')
+os.chdir(r'D:/...')
 ##TP d'application de l'alog KNN
 #Mise en place des données
 df = pd.read_csv('bmd.csv')
