@@ -2,7 +2,7 @@ import numpy as np
 import os
 import random as rd
 import math as m
-os.chdir(r'D:/Informatique/spe/TD7 KNN')
+os.chdir(r'D:/...')
 f=open('bmd.csv','r')
 d=f.readlines()
 for k in range(1,len(d)):
@@ -86,6 +86,7 @@ def DistanceEuclidienne(X1,X2):
         d=d+(X1[k]-X2[k])**2
     d=m.sqrt(d) # Calcul de la distance euclidienne entre les 2 liste en appliquant la formule donné.
     return d
+
 
 
 
